@@ -44,7 +44,6 @@ section {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -56,7 +55,7 @@ section {
     width: 25%;
   }
   .col-lg-4 {
-    width: 30%;
+    width: 33.33%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -88,7 +87,6 @@ section {
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -106,7 +104,7 @@ section {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 47%;
+    width: 50%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -132,7 +130,6 @@ section {
 @media (max-width: 991px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -183,10 +180,14 @@ section {
 }
 
 div {
-  background-color: #aaaaaa;
+  padding-right: 15px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
   position: relative;
+  background-color: #aaaaaa;
+  border: 1px solid black;
   margin-bottom: 15px;
-  margin-right: 3%;
 }
 
 </style>
@@ -196,22 +197,28 @@ div {
 
 <div class="row">
   <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="chicken-tile">
     <section id="section1">Chicken</section>
     <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?
     </p>
+    </div>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="beef-tile">
     <section id="section2">Beef</section>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?
     </p>
+    </div>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="sushi-tile">
     <section id="section3">Sushi</section>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?
     </p>
+    </div>
   </div>
 </div>
 
